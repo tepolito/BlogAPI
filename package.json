@@ -4,6 +4,7 @@
   "description": "lb",
   "main": "blogPostRouter.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "uuid": "^3.1.0"
   },
   "devDependencies": {},
