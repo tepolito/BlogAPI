@@ -1,11 +1,8 @@
-const express = require('express');
-const morgan = require('morgan');
+ const express = require('express');
 
 const blogPostRouter = require('./blogPostRouter');
 
 const app = express();
-
-app.use(morgan('common'));
 
 app.use('/blog-posts', blogPostRouter);
 
