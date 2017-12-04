@@ -1,13 +1,8 @@
 {
   "name": "blog-api",
   "version": "1.0.0",
-  "description": "lb",
+  "description": "Practice creating an API",
   "main": "blogPostRouter.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "uuid": "^3.1.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,10 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/tepolito/BlogAPI.git"
   },
-  "author": "",
+  "author": "Tyler Epolito",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tepolito/BlogAPI/issues"
   },
-  "homepage": "https://github.com/tepolito/BlogAPI#readme"
+  "homepage": "https://github.com/tepolito/BlogAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "uuid": "^3.1.0"
+  }
 }
